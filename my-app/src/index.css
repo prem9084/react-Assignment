@@ -1,0 +1,272 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  background-color: rgb(220, 220, 147);
+}
+.container img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  margin: auto;
+}
+.trophy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#img1 img {
+  height: 40rem;
+}
+#summary {
+  margin-bottom: 5rem;
+}
+#paragraf {
+  margin-top: 3rem;
+}
+#photo2 {
+  height: 25rem;
+  margin-top: 1rem;
+}
+
+#paragraf2 {
+  text-align: center;
+}
+#photo3 {
+  display: flex;
+
+  margin: auto;
+  height: 25rem;
+  width: 88rem;
+}
+#items {
+  text-align: center;
+  margin-top: 3rem;
+}
+#hr-line {
+  margin-top: 2rem;
+  height: 0.3rem;
+  background-color: red;
+}
+#item {
+  text-align: center;
+  margin-top: 2rem;
+}
+#all-tems {
+  text-align: center;
+  margin-top: 2rem;
+}
+#items1 {
+  text-align: center;
+}
+.footer {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  margin-top: 1rem;
+
+  padding: 3rem;
+}
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/* for mobile screen responsiveness */
+
+@media only screen and (max-width: 767px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .container img {
+    height: 7rem;
+  }
+  #title {
+    padding: 1rem;
+    font-size: 15px;
+  }
+
+  #paragraf {
+    font-size: 15px;
+    padding: 1rem;
+  }
+  #photo2 {
+    height: 17rem;
+    width: 24rem;
+  }
+  #photo2-about {
+    padding: 1rem;
+  }
+  .trophy {
+    display: flex;
+    flex-direction: column;
+  }
+  #photo3 {
+    height: 15rem;
+    width: 23rem;
+  }
+  #paragraf2 {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  #items {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+  #all-tems {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  #items1 {
+    text-align: center;
+  }
+
+  .footer {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+/* fot teblet responsivense */
+
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .container img {
+    height: 15rem;
+  }
+  #title {
+    padding: 1rem;
+    font-size: 15px;
+  }
+
+  #paragraf {
+    font-size: 15px;
+    padding: 1rem;
+  }
+  #photo2 {
+    height: 25rem;
+    width: 49rem;
+    padding: 1rem;
+  }
+  #photo2-about {
+    padding: 1rem;
+  }
+  .trophy {
+    display: flex;
+    flex-direction: column;
+  }
+  #photo3 {
+    height: 25rem;
+    width: 47rem;
+    padding: 1rem;
+  }
+  #paragraf2 {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  #items {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+  #all-tems {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  #items1 {
+    text-align: center;
+  }
+
+  .footer {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1280px) {
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+
+  .container img {
+    height: 7rem;
+  }
+  #title {
+    padding: 1rem;
+  }
+
+  #paragraf {
+    padding: 1rem;
+  }
+  #photo2 {
+    height: 25rem;
+    width: 43rem;
+  }
+  #photo2-about {
+    padding: 1rem;
+  }
+  .trophy {
+    display: flex;
+    flex-direction: row;
+  }
+  #photo3 {
+    height: 25rem;
+    width: 50rem;
+  }
+  #paragraf2 {
+    text-align: center;
+    padding: 1rem;
+  }
+
+  #items {
+    text-align: center;
+    margin-top: 3rem;
+    padding: 1rem;
+  }
+  #all-tems {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  #items1 {
+    text-align: center;
+  }
+
+  .footer {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
